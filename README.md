@@ -3,7 +3,7 @@
 YouTube Link:
 (coming soon)
 
-In this exciting tutorial were going to learn how to animate using a series of images on a html canvas for a game. The solution that we create will be well architected and easy to understand.  The code in this tutorial is 100% JavaScript with no frameworks.
+In this exciting tutorial were going to learn how to animate using a series of images on a html canvas for a game. The code that we will write is going to be super clean and well architected. No Game development frameworks were used in this tutorial!
 
 The images used in this tutorial can be found at 
 https://www.gameart2d.com/sprites.html
