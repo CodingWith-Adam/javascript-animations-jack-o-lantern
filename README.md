@@ -1,6 +1,6 @@
 # JavaScript Game Dev | Sprite Animations with Keyboard Input and a Halloween Theme
 
-![alt text](images/cover2.jpg)
+![alt text](images/cover 2.png)
 
 
 YouTube Link:
