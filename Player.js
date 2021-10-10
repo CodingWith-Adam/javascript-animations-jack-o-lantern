@@ -17,14 +17,14 @@ export default class Player {
 
     const image = animation.getImage();
 
-    const x = 100;
-    let y = 25;
+    const x = 200;
+    let y = 200;
 
     if (this.state == PlayerStates.slide) {
-      y = 200;
+      y = 290;
     }
 
-    ctx.drawImage(image, x, y);
+    ctx.drawImage(image, x, y, image.width / 2, image.height / 2);
   }
 
   #setState() {

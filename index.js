@@ -1,17 +1,17 @@
 import img from "./img.js";
 import Player from "./Player.js";
 
-const canvas = document.createElement("canvas");
-document.body.append(canvas);
+const canvas = document.querySelector("canvas");
+
 const ctx = canvas.getContext("2d");
-canvas.width = 2000 / 1.5;
-canvas.height = 1143 / 1.5;
+canvas.width = 2000 / 2;
+canvas.height = 1143 / 2;
 
 const background = img("BG.png");
 const player = new Player();
 
 function game() {
-  ctx.drawImage(background, 0, 0, 2000, 1143, 0, 0, 2000 / 1.5, 1143 / 1.5);
+  ctx.drawImage(background, 0, 0, 2000, 1143, 0, 0, 2000 / 2, 1143 / 2);
   player.draw(ctx);
 }
 
